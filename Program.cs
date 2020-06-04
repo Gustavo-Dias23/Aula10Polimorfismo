@@ -6,16 +6,17 @@ namespace Aula10Polimorfismo
     {
         static void Main(string[] args)
         {
-           System.Console.WriteLine("Mario:");
-           Mario mario = new Mario();
-           mario.Correr();
-           mario.Pular();
+           System.Console.WriteLine("Dante:");
+           Dante dante = new Dante();
+           dante.Correr();
+           dante.Pular();
 
-           System.Console.WriteLine("Luigi:");
+           System.Console.WriteLine("Nero:");
 
-           Luigi luigi = new Luigi();
-           luigi.Correr();
-           luigi.Pular();
+           Nero nero = new Nero();
+           nero.Correr();
+           nero.Pular();
         }
     }
+
 }
