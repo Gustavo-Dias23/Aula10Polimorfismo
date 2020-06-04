@@ -2,9 +2,9 @@ namespace Aula10Polimorfismo
 {
     public class Nero : Player
     {
-        public override void Pular(){
+        public override void Atacar(){
 
-            System.Console.WriteLine("Nero pula com uma altura 15% maior.");
+            System.Console.WriteLine("Nero ataca com 15% a mais de força!");
         }
     }
 }

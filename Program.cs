@@ -8,14 +8,14 @@ namespace Aula10Polimorfismo
         {
            System.Console.WriteLine("Dante:");
            Dante dante = new Dante();
-           dante.Correr();
-           dante.Pular();
+           dante.Atacar();
+           dante.Defender();
 
            System.Console.WriteLine("Nero:");
 
            Nero nero = new Nero();
-           nero.Correr();
-           nero.Pular();
+           nero.Atacar();
+           nero.Defender();
         }
     }
 
